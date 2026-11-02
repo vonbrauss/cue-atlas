@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "cue-atlas"
+description = "Local project-based music cue sheet identification"
+requires-python = ">=3.11"
+dynamic = ["dependencies", "version"]
+[tool.setuptools.dynamic]
+version = {attr = "cueatlas.__version__"}
+dependencies = {file = ["requirements.txt"]}
+[project.scripts]
+cue-atlas = "cueatlas.gui:main"
+[tool.setuptools.packages.find]
+include = ["cueatlas*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,17 @@
+{
+  "format": "cueatlas.reference-metadata",
+  "schema_version": 1,
+  "tracks": [
+    {
+      "reference_id": "PASTE_ID_FROM_EXPORT",
+      "metadata": {
+        "license": "License 2026-001",
+        "composer": "Alex Example (BMI)",
+        "publisher": "Example Publishing (BMI)",
+        "copyright": "2026 Example Music",
+        "isrc": "USABC2600001",
+        "notes": "Approved for this production"
+      }
+    }
+  ]
+}

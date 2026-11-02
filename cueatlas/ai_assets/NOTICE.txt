@@ -1,0 +1,19 @@
+Cue Atlas optional local AI separation
+
+BandIt v2 architecture: Karn N. Watcharasupat, Chih-Wei Wu, Iroro Orife.
+https://github.com/kwatcharasupat/bandit-v2 (Apache-2.0)
+Inference adaptation vendored from ZFTurbo/Music-Source-Separation-Training,
+commit 6fdad13686bb7e84d029ec66f9dbe76e65c93ebf (MIT).
+Both license texts are included beside this notice. The architecture is unchanged.
+Cue Atlas runs the real-valued recurrent backbone on MPS and spectral operations
+on CPU, and outputs only the music estimate with overlapping windows.
+
+BandIt v2 multilingual model weights are downloaded directly from their authors:
+https://zenodo.org/records/12701995 (CC BY-SA 4.0)
+https://creativecommons.org/licenses/by-sa/4.0/
+Model authors: Karn N. Watcharasupat, Chih-Wei Wu, Iroro Orife (2024).
+"Remastering Divide and Remaster: A Cinematic Audio Source Separation Dataset
+with Multilingual Support." No changes are made to the downloaded weights.
+
+Portable Python: https://github.com/astral-sh/python-build-standalone
+Runtime dependencies retain their own distributions' licenses.
